@@ -280,7 +280,7 @@ def onmessage(update,bot:ObigramClient):
         #tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'Roxanita00'
+        tl_admin_user = 'DaylinLB'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -297,10 +297,10 @@ def onmessage(update,bot:ObigramClient):
                 user_info = jdb.get_user(username)
                 jdb.save()
         else:
-            mensaje = "🎐No tiene acceso.\n👨🏻‍💻Contacta a : @Keima_Senpai\n"
+            mensaje = "🎐No tiene acceso.\n👨🏻‍💻Contacta a : @DaylinLB\n"
             intento_msg = "💢El usuario @"+username+ " está solicitando permiso para usar bot💢"
             bot.sendMessage(update.message.chat.id,mensaje)
-            bot.sendMessage(1618347551,intento_msg)
+            bot.sendMessage(1304796605,intento_msg)
             return
 
         msgText = ''
@@ -962,7 +962,7 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
                 # set in debug
             #    api_id = 18869168
             #    api_hash = '263ae5bb676af1e5cbec71a7d4e01cfe'
-            #    bot_token = '5486696421:AAH3tm7ZNcK087S5d1F5W0AnpPRFvqjjqPM'
+            #    bot_token = '5444771561:AAGlv1PjcyXjqB_BtYs4Np36F50g_dLc7pE'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -975,7 +975,7 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
   
 
 def main():
-    bot_token = '5486696421:AAH3tm7ZNcK087S5d1F5W0AnpPRFvqjjqPM'
+    bot_token = '5444771561:AAGlv1PjcyXjqB_BtYs4Np36F50g_dLc7pE'
     
 
     bot = ObigramClient(bot_token)
